@@ -16,7 +16,7 @@ public class Car extends Vehicle {
 		this.seats = seats;
 	}
 
-	void display()
+	void displayCar()
 	{
 		System.out.println("Car seats is:"+seats);
 	}
