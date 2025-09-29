@@ -1,12 +1,13 @@
-package Multilevel_lnheritance;
+package Hierarchical_lnheritance;
 
-public class Person {
+public class Vehicle {
 
 	int id;
 	String name;
-	public void Personinput(int id, String name) {
+	public void fueltype(int id, String name) {
 		this.id = id;
 		this.name = name;
+		System.out.println("Placeholder");
 	}
 	public int getId() {
 		return id;
@@ -19,11 +20,6 @@ public class Person {
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
-	void display()
-	{
-		System.out.println("person id is:"+id);
-		System.out.println("person name is :"+name);
 	}
 	
 }

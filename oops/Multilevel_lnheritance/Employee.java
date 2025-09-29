@@ -3,8 +3,8 @@ package Multilevel_lnheritance;
 public class Employee extends Person {
 
 	double salary;
-     public void input(double salary) {
-		super.Person(id, name);
+     public void Employeeinput(int id,String name,double salary) {
+		super.Personinput(id, name);
 		this.salary = salary;
 	}
 	 public double getSalary() {
@@ -15,6 +15,7 @@ public class Employee extends Person {
 	 }
 		void displayEmployee()
 		{
+			super.display();//parent class display call
 			System.out.println("Employee salary is :"+salary);
 		}
 		

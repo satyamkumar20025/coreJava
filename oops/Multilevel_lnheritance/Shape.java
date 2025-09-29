@@ -1,10 +1,9 @@
 package Multilevel_lnheritance;
 
-public class Person {
-
+public class  Shape {
 	int id;
 	String name;
-	public void Personinput(int id, String name) {
+	public void Shape(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}
@@ -20,10 +19,26 @@ public class Person {
 	public void setName(String name) {
 		this.name = name;
 	}
+	public void input(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
 	void display()
 	{
-		System.out.println("person id is:"+id);
-		System.out.println("person name is :"+name);
+		System.out.print("id"+id);
+		System.out.print("name"+name);
+		
 	}
 	
 }
+
+
+
+
+
+
+
+
+
+
+

@@ -1,10 +1,10 @@
-package Multilevel_lnheritance;
+package Hierarchical_lnheritance;
 
-public class Person {
+public class Employee {
 
 	int id;
 	String name;
-	public void Personinput(int id, String name) {
+	public void input(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}
@@ -22,8 +22,9 @@ public class Person {
 	}
 	void display()
 	{
-		System.out.println("person id is:"+id);
-		System.out.println("person name is :"+name);
+		System.out.println("id"+id);
+		System.out.println("name"+name);
+		
 	}
 	
 }

@@ -1,10 +1,10 @@
 package Multilevel_lnheritance;
 
-public class Person {
+public class Device {
 
 	int id;
 	String name;
-	public void Personinput(int id, String name) {
+	public void input(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}
@@ -20,10 +20,18 @@ public class Person {
 	public void setName(String name) {
 		this.name = name;
 	}
-	void display()
+	void dispaly()
 	{
-		System.out.println("person id is:"+id);
-		System.out.println("person name is :"+name);
+		System.out.println("id"+id);
+		System.out.println("name"+name);
 	}
-	
 }
+
+
+
+
+
+
+
+
+
