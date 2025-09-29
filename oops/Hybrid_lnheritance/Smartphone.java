@@ -1,11 +1,11 @@
-package Multilevel_lnheritance;
+package Hybrid_lnheritance;
 
 public class Smartphone extends Mobile {
 
 	String os;
 
 	public void inputSmartphone(int id,String name,String imei,String os) {
-		super.inputMobile(id,name,imei);
+		super.input(id,name,imei);
 		this.os = os;
 	}
 
@@ -18,7 +18,7 @@ public class Smartphone extends Mobile {
 	}
 	void Smartphonedisplay()
 	{
-		super.Mobiledisplay();
+		super.dispaly();
 		System.out.println("Smartphone"+os);
 	}
 	public static void main (String[] args)
@@ -26,7 +26,7 @@ public class Smartphone extends Mobile {
 		Smartphone s=new Smartphone();
 		s.inputSmartphone(45,"kali","hdh","hfg");
 		s.dispaly();
-		s.Mobiledisplay();
+		s.dispaly(); 
 		s.Smartphonedisplay();
 		
 	}
