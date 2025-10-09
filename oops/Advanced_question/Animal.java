@@ -1,4 +1,4 @@
-package Advanced_Polymorphism_Question;
+package Advanced_question;
 
 class Animal {
    void sound() {

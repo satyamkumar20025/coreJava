@@ -1,7 +1,13 @@
-package Advanced_Polymorphism_Question;
+package Advanced_question;
 
-public class Main {
+public class Light extends Appliance {
 
+
+void turnOn()
+{
+	System.out.println("Light");
+}
+/*
 public static void main(String[] args)
 {
 	Appliance d1=new Light();
@@ -13,6 +19,7 @@ public static void main(String[] args)
     if (d1 instanceof Light) {
         Light l = (Light) d1;
         l.turnOn(); 
-    }
+    }*/
 }
-}
+
+

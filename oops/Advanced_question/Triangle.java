@@ -1,8 +1,7 @@
-package Advanced_Polymorphism_Question;
+package Advanced_question;
 
-import Casting.Bike;
 
-public class Tringle extends Shape {
+public class Triangle extends Shape {
 
 	void area()
 	{
@@ -12,10 +11,10 @@ public class Tringle extends Shape {
 	    {
 	         Shape pp;
 	         pp=new Circle();
-	         pp=new Square();
-	         pp=new Tringle();
 	         if (pp instanceof Circle) {
 	        	 Circle rrr=(Circle)pp;
+	        	 rrr.area();
+	        	 
 	         }
 
 	           
