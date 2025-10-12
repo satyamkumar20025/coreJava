@@ -1,4 +1,4 @@
-package Advanced_question;
+package Advanced_Polymorphism;
 
 public class credit_card_payment extends payment{
 	   void pay() {

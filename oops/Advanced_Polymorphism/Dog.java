@@ -1,4 +1,4 @@
-package Advanced_question;
+package Advanced_Polymorphism;
 
 class Dog extends Animal {
     void sound() {

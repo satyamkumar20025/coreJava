@@ -1,4 +1,4 @@
-package Advanced_question;
+package Advanced_Polymorphism;
 
 public class Square extends Shape{
 	void area()
