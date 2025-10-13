@@ -21,8 +21,5 @@ public class Bike extends Vehicle {
         System.out.println("Bike max speed: " + maxspeed + " km/h");
     }
 
-    public static void main(String[] args) {
-        Bike b = new Bike(120);
-        b.getMaxSpeed();
-    }
+  
 }

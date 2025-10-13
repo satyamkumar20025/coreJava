@@ -20,10 +20,13 @@ public	void getMaxSpeed()
 	{
 		System.out.println("450");
 	}
-	public static void main(String[] args)
-	{
-		Truck t=new Truck(450);
-		t.getMaxSpeed();
-		
-	}
+public static void main(String[] args)
+{
+	Truck t=new Truck(450);
+	t.getMaxSpeed();
+	
+     Bike b = new Bike(120);
+	      b.getMaxSpeed();
+	    }
 }
+
