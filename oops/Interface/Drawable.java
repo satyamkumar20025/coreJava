@@ -1,6 +1,6 @@
 package Interface;
 
-public interface Drawable {
-public	abstract void Draw();
+public interface  Drawable {
+ void draw();
 
 }
