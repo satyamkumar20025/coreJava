@@ -1,4 +1,4 @@
-package Interface;
+package Interface_question;
 
 public class GooglePay implements Payment {
 

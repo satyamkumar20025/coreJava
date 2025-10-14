@@ -1,4 +1,4 @@
-package Interface;
+package Interface_question;
 
 	// Rectangle class implementing Drawable
 public	class Rectangle implements Drawable {
