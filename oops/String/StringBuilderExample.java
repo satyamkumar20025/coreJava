@@ -36,11 +36,6 @@ public class StringBuilderExample {
             System.out.println(c);
         }
 
-        // charAt() with index loop
-        for (int i = 0; i < nam.length(); i++) {
-            System.out.println(nam.charAt(i));
-        }
-
         // substring()
         String email = "user@example.com";
         String domain = email.substring(email.indexOf("@") + 1);
@@ -51,77 +46,84 @@ public class StringBuilderExample {
         String storedPassword = "123456";
         if (inputPassword.equals(storedPassword)) {
             System.out.println("Login successful.");
-        } else {
-            System.out.println("Wrong Password");
-        }
-
-        // == comparison
-        if (inputPassword == storedPassword) {
-            System.out.println("Reference same");
-        }
-
-        // equalsIgnoreCase()
-        String inputEmail = "Vijay0102@gmail.com";
-        String storedEmail = "vijay0102@gmail.com";
-        if (inputEmail.equalsIgnoreCase(storedEmail)) {
-            System.out.println("Email matched.");
         }
 
         // trim()
         String username = "  admin  ";
         System.out.println(username.trim()); // admin
 
+        // Reverse a string
+        String sr = "Hello world welcome to java programming";
+        char[] ch = sr.toCharArray();
+        for (int i = ch.length - 1; i >= 0; i--) {
+            System.out.print(ch[i]);
+        }
+        System.out.println();
+
+        // Capitalize each character
+        String op = "hello world";
+        System.out.println(op.toUpperCase());
+
+        // Convert to lowercase using loop
+        char[] chr = op.toUpperCase().toCharArray();
+        for (char k : chr) {
+            if (k != ' ') {
+                k = Character.toLowerCase(k);
+            }
+            System.out.print(k);
+        }
+        System.out.println();
+
+        // startsWith() and endsWith()
+        String url = "https://github.com/satyamkumar";
+        System.out.println(url.startsWith("https")); // true
+        System.out.println(url.endsWith("kumar"));   // true
+
         // contains()
-        String description = "This phone has a great camera.";
-        if (description.contains("camera")) {
-            System.out.println("Camera feature found.");
-        }
+        String bio = "Full Stack Developer specializing in MERN";
+        System.out.println(bio.contains("MERN")); // true
 
-        // toLowerCase(), toUpperCase()
-        String keyword = "Laptop";
-        System.out.println(keyword.toLowerCase()); // laptop
-        System.out.println(keyword.toUpperCase()); // LAPTOP
+        // indexOf() and lastIndexOf()
+        String sentence = "Java is powerful. Java is popular.";
+        System.out.println(sentence.indexOf("Java"));       // 0
+        System.out.println(sentence.lastIndexOf("Java"));   // 18
 
-        // startsWith(), endsWith()
-        String fileName = "report.pdf";
-        if (fileName.endsWith(".pdf")) {
-            System.out.println("PDF file detected.");
-        }
-        if (fileName.startsWith("report")) {
-            System.out.println("File name starts with 'report'.");
-        }
+        // replace() and replaceAll()
+        String dirty = "This_is_a_test_string";
+        System.out.println(dirty.replace("_", " "));        // This is a test string
+        System.out.println(dirty.replaceAll("test", "demo")); // This_is_a_demo_string
 
-        // indexOf(), lastIndexOf()
-        String url = "https://example.com/page";
-        int index = url.indexOf("com");
-        System.out.println(index); // 16
-
-        // replace(), replaceAll()
-        String text = "Hello World";
-        System.out.println(text.replace(" ", "_")); // Hello_World
-        System.out.println(text.replaceAll(" ", "_")); // Hello_World
-
-        // split(String regex)
-        String csv = "apple,banana,grape";
+        // split()
+        String csv = "apple,banana,grape,mango";
         String[] fruits = csv.split(",");
         for (String fruit : fruits) {
             System.out.println(fruit);
         }
 
-        // isEmpty(), isBlank()
-        String input = "   ";
-        System.out.println(input.isBlank()); // true
-        System.out.println(input.isEmpty()); // false
+        // isEmpty() and isBlank()
+        String emptyStr = "";
+        String blankStr = "   ";
+        System.out.println(emptyStr.isEmpty()); // true
+        System.out.println(blankStr.isBlank()); // true (Java 11+)
 
-        // valueOf()
-        int age = 25;
-        String ageStr = String.valueOf(age);
-        System.out.println(ageStr); // 25
+        // join()
+        String joined = String.join(" | ", "React", "Angular", "Vue");
+        System.out.println(joined); // React | Angular | Vue
 
-        // format(String format, Object... args)
-        String nameFormat = "Ravi";
+        // compareTo()
+        String a1 = "apple";
+        String b1 = "banana";
+        System.out.println(a1.compareTo(b1)); // negative (lexicographically less)
+
+        // intern()
+        String x = new String("hello").intern();
+        String y = "hello";
+        System.out.println(x == y); // true (same reference from string pool)
+
+        // format()
+        String devName = "Satyam";
         int score = 95;
-        String result = String.format("%s scored %d marks.", nameFormat, score);
-        System.out.println(result); // Ravi scored 95 marks.
+        String formatted = String.format("Name: %s, Score: %d", devName, score);
+        System.out.println(formatted); // Name: Satyam, Score: 95
     }
 }
