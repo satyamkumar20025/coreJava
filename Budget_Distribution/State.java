@@ -3,12 +3,12 @@ package Budget_Distribution;
 import java.util.Scanner;
 
 public class State extends Central {
-	String state_name;
-	String gov_name;
+	StringQuestion state_name;
+	StringQuestion gov_name;
 	double state_budget;
 
 		
-	public State(String gov_name, double total_budget, double state_work_meney, String state_name, String gov_name2,
+	public State(StringQuestion gov_name, double total_budget, double state_work_meney, StringQuestion state_name, StringQuestion gov_name2,
 			double state_budget) {
 		super(gov_name, total_budget, state_work_meney);
 		this.state_name = state_name;
@@ -17,22 +17,22 @@ public class State extends Central {
 	}
 
 
-	public String getState_name() {
+	public StringQuestion getState_name() {
 		return state_name;
 	}
 
 
-	public void setState_name(String state_name) {
+	public void setState_name(StringQuestion state_name) {
 		this.state_name = state_name;
 	}
 
 
-	public String getGov_name() {
+	public StringQuestion getGov_name() {
 		return gov_name;
 	}
 
 
-	public void setGov_name(String gov_name) {
+	public void setGov_name(StringQuestion gov_name) {
 		this.gov_name = gov_name;
 	}
 
@@ -52,7 +52,7 @@ public class State extends Central {
 
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter the special_category State");
-		String name=sc.nextLine();
+		StringQuestion name=sc.nextLine();
 		if(name.equalsIgnoreCase("Rural"))
 
 		{

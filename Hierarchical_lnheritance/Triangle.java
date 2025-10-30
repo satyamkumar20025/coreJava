@@ -26,7 +26,7 @@ public class Triangle extends Shape{
 		double result =0.5*base*height;
 		System.out.println("Area of Triangel"+result);
 	}
-	public static void main (String[] args)
+	public static void main (StringQuestion[] args)
 	{
 		Circle c=new Circle();
 		c.area(1,"Circle",5);

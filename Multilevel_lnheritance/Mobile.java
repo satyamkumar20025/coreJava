@@ -2,18 +2,18 @@ package Multilevel_lnheritance;
 
 public class Mobile extends Device{
 
-	String imei;
+	StringQuestion imei;
 
-	public void  inputMobile(int id,String name,String imei) {
+	public void  inputMobile(int id,StringQuestion name,StringQuestion imei) {
 		super.input(id,name);
 		this.imei = imei;
 	}
 
-	public String getImei() {
+	public StringQuestion getImei() {
 		return imei;
 	}
 
-	public void setImei(String imei) {
+	public void setImei(StringQuestion imei) {
 		this.imei = imei;
 	}
 

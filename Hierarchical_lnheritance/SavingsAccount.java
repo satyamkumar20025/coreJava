@@ -3,7 +3,7 @@ package Hierarchical_lnheritance;
 public class SavingsAccount extends Account {
 
 	double amount;
-	public SavingsAccount(int id, String name, double balance, double amount) {
+	public SavingsAccount(int id, StringQuestion name, double balance, double amount) {
 		super(id, name, balance);
 		this.amount = amount;
 	}

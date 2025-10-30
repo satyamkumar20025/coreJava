@@ -1,17 +1,17 @@
 package Multilevel_Inheritance_Question;
 
 public class Animal {
-   String type;
+   StringQuestion type;
 
-   public Animal(String type) {
+   public Animal(StringQuestion type) {
 	this.type = type;
    }
 
-   public String getType() {
+   public StringQuestion getType() {
 	return type;
    }
 
-   public void setType(String type) {
+   public void setType(StringQuestion type) {
 	this.type = type;
    }
    

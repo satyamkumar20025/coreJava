@@ -4,7 +4,7 @@ public class Car extends Vehicle {
 
 	int seat;
 
-	public Car(int id, String brand, int seat) {
+	public Car(int id, StringQuestion brand, int seat) {
 		super(id, brand);
 		this.seat = seat;
 	}

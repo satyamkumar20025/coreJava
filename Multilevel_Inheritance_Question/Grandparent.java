@@ -2,17 +2,17 @@ package Multilevel_Inheritance_Question;
 
 public class Grandparent {
 
-	String Grandparent_created;
+	StringQuestion Grandparent_created;
 
-	public Grandparent(String grandparent_created) {
+	public Grandparent(StringQuestion grandparent_created) {
 		Grandparent_created = grandparent_created;
 	}
 
-	public String getGrandparent_created() {
+	public StringQuestion getGrandparent_created() {
 		return Grandparent_created;
 	}
 
-	public void setGrandparent_created(String grandparent_created) {
+	public void setGrandparent_created(StringQuestion grandparent_created) {
 		Grandparent_created = grandparent_created;
 	}
 	void display()

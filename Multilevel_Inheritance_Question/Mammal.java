@@ -1,15 +1,15 @@
 package Multilevel_Inheritance_Question;
 
 public class Mammal extends Animal {
-	String hasfur;
-	public Mammal(String type,String hasfur ) {
+	StringQuestion hasfur;
+	public Mammal(StringQuestion type,StringQuestion hasfur ) {
 		super(type);
 		this.hasfur = hasfur;
 	}
-	public String getHasfur() {
+	public StringQuestion getHasfur() {
 		return hasfur;
 	}
-	public void setHasfur(String hasfur) {
+	public void setHasfur(StringQuestion hasfur) {
 		this.hasfur = hasfur;
 	}
 

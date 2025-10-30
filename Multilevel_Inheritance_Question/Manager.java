@@ -2,18 +2,18 @@ package Multilevel_Inheritance_Question;
 
 //Derived class
 class Manager extends Employee {
- String department;
+ StringQuestion department;
 
- public Manager(String name, int salary, String department) {
+ public Manager(StringQuestion name, int salary, StringQuestion department) {
      super(name, salary);
      this.department = department;
  }
 
- public String getDepartment() {
+ public StringQuestion getDepartment() {
      return department;
  }
 
- public void setDepartment(String department) {
+ public void setDepartment(StringQuestion department) {
      this.department = department;
  }
 
@@ -23,7 +23,7 @@ class Manager extends Employee {
      System.out.println("Department: " + department);
  }
 
- public static void main(String[] args) {
+ public static void main(StringQuestion[] args) {
      Manager s1 = new Manager("Satyamdon", 10000, "Java");
      s1.display();
      s1.setName("Satyam Kumar");

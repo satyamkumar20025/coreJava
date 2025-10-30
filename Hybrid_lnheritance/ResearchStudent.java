@@ -2,18 +2,18 @@ package Hybrid_lnheritance;
 
 public class ResearchStudent extends Student {
 
-	String researchtopic;
+	StringQuestion researchtopic;
 
-	public ResearchStudent(int id, String name, String course, String researchtopic) {
+	public ResearchStudent(int id, StringQuestion name, StringQuestion course, StringQuestion researchtopic) {
 		super(id, name, course);
 		this.researchtopic = researchtopic;
 	}
 
-	public String getResearchtopic() {
+	public StringQuestion getResearchtopic() {
 		return researchtopic;
 	}
 
-	public void setResearchtopic(String researchtopic) {
+	public void setResearchtopic(StringQuestion researchtopic) {
 		this.researchtopic = researchtopic;
 	}
 	void displayResearchStudent()
@@ -21,7 +21,7 @@ public class ResearchStudent extends Student {
 		super.displayStudent();
 		System.out.println("research topic"+researchtopic);
 	}
-	public static void main(String[] args)
+	public static void main(StringQuestion[] args)
 	{
 		ResearchStudent r=new ResearchStudent(555,"Satyam kumar","Developer","java");
 		r.display();

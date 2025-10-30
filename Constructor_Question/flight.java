@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class flight {
 
  int flightno;
- String source;
- String destination;
- String seatsavailable;
- public flight(int flightno, String source, String destination, String seatsavailable) {
+ StringQuestion source;
+ StringQuestion destination;
+ StringQuestion seatsavailable;
+ public flight(int flightno, StringQuestion source, StringQuestion destination, StringQuestion seatsavailable) {
 	this.flightno = flightno;
 	this.source = source;
 	this.destination = destination;
@@ -16,7 +16,7 @@ public class flight {
  }
  void bookticket()
  {
-	 String name;
+	 StringQuestion name;
 	 int tickets;
 	 int totalseat;
 	 
@@ -44,7 +44,7 @@ public class flight {
 
  }
 // public class main {
-	 public static void main(String[] args) {
+	 public static void main(StringQuestion[] args) {
 		 flight f1=new flight(455,"delhi","londan","yes");
 		 f1.bookticket();
 		 

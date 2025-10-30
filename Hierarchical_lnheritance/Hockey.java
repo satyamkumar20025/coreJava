@@ -2,12 +2,12 @@ package Hierarchical_lnheritance;
 
 public class Hockey extends Sports {
 
-	public void play(int id,String name) {
+	public void play(int id,StringQuestion name) {
 		super.play(id,name);
 		System.out.println("Hockey is plated with feet and ball");
 	}
 
-	public static void main (String[] args)
+	public static void main (StringQuestion[] args)
 	{
 		Hockey h=new Hockey();
 		h.play(5, "satyam");

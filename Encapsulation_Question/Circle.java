@@ -28,7 +28,7 @@ public class Circle {
 			System.out.print("circle Area :"+area);
 			System.out.print(" circle Perimeter:"+perim);
 	 }
-		public static void main(String[] args) {
+		public static void main(StringQuestion[] args) {
 			Circle s1=new Circle();
 			s1.input();
 			s1.calculate_circle();

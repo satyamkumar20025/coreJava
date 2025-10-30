@@ -3,7 +3,7 @@ package Encapsulation_Question;
 import java.util.Scanner;
 
 public class university_student {
-	String name;
+	StringQuestion name;
 	private int roll_no;
 	private double marks1,marks2,marks3,marks4,marks5;
 	private double total,avg,per,Gpa;
@@ -83,7 +83,7 @@ public class university_student {
 		System.out.println("Student percenteag marks:"+per);
 		}
 	
-		public static void main(String[] args) {
+		public static void main(StringQuestion[] args) {
 			university_student s1=new  university_student();
 			s1.input();
 			s1.calculate();

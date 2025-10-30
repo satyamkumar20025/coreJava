@@ -4,7 +4,7 @@ public class WashingMachine extends Appliance{
 
 	int capacity;
 
-	public WashingMachine(int id, String brand, int capacity) {
+	public WashingMachine(int id, StringQuestion brand, int capacity) {
 		super(id, brand);
 		this.capacity = capacity;
 	}

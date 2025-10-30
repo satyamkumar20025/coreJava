@@ -2,17 +2,17 @@ package Multilevel_Inheritance_Question;
 
 // Base class
 class Person {
-    String name;
+    StringQuestion name;
 
-    public Person(String name) {
+    public Person(StringQuestion name) {
         this.name = name;
     }
 
-    public String getName() {
+    public StringQuestion getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(StringQuestion name) {
         this.name = name;
     }
 }

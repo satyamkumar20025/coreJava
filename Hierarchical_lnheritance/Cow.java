@@ -2,7 +2,7 @@ package Hierarchical_lnheritance;
 
 public class Cow  extends Animal{
 	
-	public void Sound(int id,String name) {	
+	public void Sound(int id,StringQuestion name) {	
 	super.Sound(id,name);
 	}
    void display()
@@ -10,7 +10,7 @@ public class Cow  extends Animal{
 	   super.display();
 	   System.out.println("cat moo");
    }
-	public static void main(String[] args)
+	public static void main(StringQuestion[] args)
 	{
 		Cow c=new Cow();
 		c.Sound(4, "cow");

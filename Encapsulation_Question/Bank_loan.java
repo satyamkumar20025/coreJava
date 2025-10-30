@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Bank_loan {
 	private int loan_id;
 	private double loan_Amount;
-	private String cust_name,bra;
+	private StringQuestion cust_name,bra;
 	private double  interest_Rate;
 	private double months;
 	private double  emi;
@@ -85,7 +85,7 @@ public class Bank_loan {
 
 		}
 	
-		public static void main(String[] args) {
+		public static void main(StringQuestion[] args) {
 			Bank_loan s1=new Bank_loan();
 			s1.input();
 			s1.calculateEMI();

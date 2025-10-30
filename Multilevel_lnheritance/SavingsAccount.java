@@ -5,7 +5,7 @@ class SavingsAccount extends Account {
     double balance;
     double amount;
 
-    public void deposit(int id, String name, double amount) {
+    public void deposit(int id, StringQuestion name, double amount) {
         super.input(id, name);
         this.amount = amount;
         this.balance += amount;

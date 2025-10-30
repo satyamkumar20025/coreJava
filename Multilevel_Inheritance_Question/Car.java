@@ -2,7 +2,7 @@ package Multilevel_Inheritance_Question;
 
 public class Car extends Vehicle{
 	int seats;
-	public Car(String fueltype,int seats) {
+	public Car(StringQuestion fueltype,int seats) {
 		super(fueltype);
 		this.seats = seats;
 	}

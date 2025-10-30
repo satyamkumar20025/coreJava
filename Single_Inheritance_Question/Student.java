@@ -3,9 +3,9 @@ package Single_Inheritance_Question;
 //Derived class
 class Student extends Person {
  int rollNo;
- String course;
+ StringQuestion course;
 
- public Student(String name, int age, int rollNo, String course) {
+ public Student(StringQuestion name, int age, int rollNo, StringQuestion course) {
      super(name, age); // Constructor chaining
      this.rollNo = rollNo;
      this.course = course;
@@ -19,7 +19,7 @@ class Student extends Person {
  }
  
    public class Main {
-      public static void main(String[] args) {
+      public static void main(StringQuestion[] args) {
          Student s1 = new Student("Satyam", 21, 101, "Computer Science");
               s1.displayDetails();
            }

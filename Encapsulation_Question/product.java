@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class product {
 
-	private String product_name;
+	private StringQuestion product_name;
 	private double price;
 	private double quantity;
 	private double payment;
@@ -61,7 +61,7 @@ public class product {
   		
   		}
   	
-  		public static void main(String[] args) {
+  		public static void main(StringQuestion[] args) {
   			product s1=new  product();
   			s1.input();
   			s1.calculate();

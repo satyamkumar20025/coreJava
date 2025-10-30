@@ -2,8 +2,8 @@ package Hybrid_lnheritance;
 
 public class Person{
 	int id;
-	String name;
-	public Person(int id, String name) {
+	StringQuestion name;
+	public Person(int id, StringQuestion name) {
 		this.id = id;
 		this.name = name;
 	}
@@ -13,10 +13,10 @@ public class Person{
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getName() {
+	public StringQuestion getName() {
 		return name;
 	}
-	public void setName(String name) {
+	public void setName(StringQuestion name) {
 		this.name = name;
 	}
 	void display()

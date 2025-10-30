@@ -1,7 +1,8 @@
-package Abstract;
+package AbstractQuestion;
 
-public class SavingAccount extends Bank {
+public class CurrentAmount extends Bank {
 
+    private double requiementAmount;
     private double withdrawAmount;
     private double currentAmount;
     private double emi;
@@ -9,8 +10,9 @@ public class SavingAccount extends Bank {
     private double interestRate;
     private double months;
 
-    public SavingAccount(double withdrawAmount, double currentAmount, double loanAmount,
-                         double interestRate, double months) {
+    public CurrentAmount(double requiementAmount, double withdrawAmount, double currentAmount,
+                         double loanAmount, double interestRate, double months) {
+        this.requiementAmount = requiementAmount;
         this.withdrawAmount = withdrawAmount;
         this.currentAmount = currentAmount;
         this.loanAmount = loanAmount;
@@ -44,17 +46,5 @@ public class SavingAccount extends Bank {
         System.out.printf("Calculated EMI: ₹%.2f\n", emi);
     }
 
-    public static void main(String[] args) {
-        SavingAccount bb = new SavingAccount(500, 2000, 4500, 6, 3);
-        bb.deposit(500);
-        bb.withdraw();
-        bb.CalculateInterest();
-    
-    
-        CurrentAmount aa = new CurrentAmount(5000, 500, 45000, 1000000, 3, 7);
-        aa.deposit(1000);
-        aa.withdraw();
-        aa.CalculateInterest();
-    }
-    
-}   
+   
+}

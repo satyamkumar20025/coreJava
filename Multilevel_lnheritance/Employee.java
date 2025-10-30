@@ -3,7 +3,7 @@ package Multilevel_lnheritance;
 public class Employee extends Person {
 
 	double salary;
-     public void Employeeinput(int id,String name,double salary) {
+     public void Employeeinput(int id,StringQuestion name,double salary) {
 		super.Personinput(id, name);
 		this.salary = salary;
 	}

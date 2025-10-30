@@ -2,15 +2,15 @@ package Hybrid_lnheritance;
 
 public class Student extends Person {
 
-	String course;
-	public Student(int id, String name, String course) {
+	StringQuestion course;
+	public Student(int id, StringQuestion name, StringQuestion course) {
 		super(id, name);
 		this.course = course;
 	}
-	public String getCourse() {
+	public StringQuestion getCourse() {
 		return course;
 	}
-	public void setCourse(String course) {
+	public void setCourse(StringQuestion course) {
 		this.course = course;
 	}
 	void displayStudent()

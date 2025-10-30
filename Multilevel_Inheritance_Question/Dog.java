@@ -1,18 +1,18 @@
 package Multilevel_Inheritance_Question;
 
 public class Dog extends Mammal {
-	String breed;
+	StringQuestion breed;
 
-	public Dog(String type,String hasfur,String breed) {
+	public Dog(StringQuestion type,StringQuestion hasfur,StringQuestion breed) {
 		super(type,hasfur);
 		this.breed = breed;
 	}
 
-	public String getBreed() {
+	public StringQuestion getBreed() {
 		return breed;
 	}
 
-	public void setBreed(String breed) {
+	public void setBreed(StringQuestion breed) {
 		this.breed = breed;
 	}
 	void display()
@@ -23,7 +23,7 @@ public class Dog extends Mammal {
 	}
 
 //public class Main{
-	public static void main(String[] args)
+	public static void main(StringQuestion[] args)
 	{
 		Dog d1=new Dog("browe","4","kalu");
 		 d1.display();

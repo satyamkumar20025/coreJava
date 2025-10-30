@@ -2,15 +2,15 @@ package Constructor_Question;
 
 public class Passenger {
 
-	String fieldsname;
+	StringQuestion fieldsname;
 	int age;
-	String berthpreference;
+	StringQuestion berthpreference;
 	/**
 	 * @param fieldsname
 	 * @param age
 	 * @param berthpreference
 	 */
-	public Passenger(String fieldsname, int age, String berthpreference) {
+	public Passenger(StringQuestion fieldsname, int age, StringQuestion berthpreference) {
 		this.fieldsname = fieldsname;
 		this.age = age;
 		this.berthpreference = berthpreference;
@@ -36,7 +36,7 @@ public class Passenger {
 
 	}
 	
-	public static void main(String[] args) {
+	public static void main(StringQuestion[] args) {
 		
 		Passenger p1 = new Passenger("sharnajibi",59,"20/11/2005");
 		 p1.check();

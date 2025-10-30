@@ -2,7 +2,7 @@ package Hierarchical_lnheritance;
 
 public class Cat extends Animal {
 
-	public void Sound(int id,String name) {
+	public void Sound(int id,StringQuestion name) {
 		super.Sound(id,name);
 	}
    void display()

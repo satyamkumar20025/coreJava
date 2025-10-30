@@ -2,18 +2,18 @@ package Hybrid_lnheritance;
 
 public class Smartphone extends Mobile {
 
-	String os;
+	StringQuestion os;
 
-	public void inputSmartphone(int id,String name,String imei,String os) {
+	public void inputSmartphone(int id,StringQuestion name,StringQuestion imei,StringQuestion os) {
 		super.input(id,name,imei);
 		this.os = os;
 	}
 
-	public String getOs() {
+	public StringQuestion getOs() {
 		return os;
 	}
 
-	public void setOs(String os) {
+	public void setOs(StringQuestion os) {
 		this.os = os;
 	}
 	void Smartphonedisplay()
@@ -21,7 +21,7 @@ public class Smartphone extends Mobile {
 		super.dispaly();
 		System.out.println("Smartphone"+os);
 	}
-	public static void main (String[] args)
+	public static void main (StringQuestion[] args)
 	{
 		Smartphone s=new Smartphone();
 		s.inputSmartphone(45,"kali","hdh","hfg");

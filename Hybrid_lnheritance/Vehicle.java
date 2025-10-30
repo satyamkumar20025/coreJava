@@ -3,8 +3,8 @@ package Hybrid_lnheritance;
 public class Vehicle {
 
 	int id;
-	String brand;
-	public Vehicle(int id, String brand) {
+	StringQuestion brand;
+	public Vehicle(int id, StringQuestion brand) {
 		this.id = id;
 		this.brand = brand;
 	}
@@ -14,10 +14,10 @@ public class Vehicle {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getBrand() {
+	public StringQuestion getBrand() {
 		return brand;
 	}
-	public void setBrand(String brand) {
+	public void setBrand(StringQuestion brand) {
 		this.brand = brand;
 	}
 	void display()

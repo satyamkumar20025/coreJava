@@ -3,27 +3,27 @@ package Budget_Distribution;
 import java.util.Scanner;
 
 public class Block1 extends District1 {
-	String Blockname;
+	StringQuestion Blockname;
 
-	public Block1(String gov_name, double total_budget, double state_work_meney, String state_name, String gov_name2,
-			double state_budget, String gov_type, double district1_budget, String blockname) {
+	public Block1(StringQuestion gov_name, double total_budget, double state_work_meney, StringQuestion state_name, StringQuestion gov_name2,
+			double state_budget, StringQuestion gov_type, double district1_budget, StringQuestion blockname) {
 		super(gov_name, total_budget, state_work_meney, state_name, gov_name2, state_budget, gov_type,
 				district1_budget);
 		Blockname = blockname;
 	}
 
-	public String getBlockname() {
+	public StringQuestion getBlockname() {
 		return Blockname;
 	}
 
-	public void setBlockname(String blockname) {
+	public void setBlockname(StringQuestion blockname) {
 		Blockname = blockname;
 	}
 	void Villages_budget_DistributeStateShare()
 	{
 	Scanner sc=new Scanner(System.in);
 	System.out.print("Enter the name of Area:");
-	String name=sc.nextLine();
+	StringQuestion name=sc.nextLine();
 	if(name.equalsIgnoreCase("Rural"))
 	
 		{

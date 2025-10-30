@@ -1,16 +1,16 @@
 package Budget_Distribution;
 
 public class Village2 extends Block2 {
-	String gov_name2;
-	String village2_name;
-	String District2_name;
-	String post2_area;
-	String police2;
+	StringQuestion gov_name2;
+	StringQuestion village2_name;
+	StringQuestion District2_name;
+	StringQuestion post2_area;
+	StringQuestion police2;
 	float blocknumber2;///////Administrative unit(unique code/number)
    int pincode2;
-   public Village2(String gov_name, double total_budget, double state_work_meney, String state_name, String gov_name2,
-		double state_budget, String gov_type, double district2_budget, String blockname, String gov_name22,
-		String village2_name, String district2_name, String post2_area, String police2, float blocknumber2,
+   public Village2(StringQuestion gov_name, double total_budget, double state_work_meney, StringQuestion state_name, StringQuestion gov_name2,
+		double state_budget, StringQuestion gov_type, double district2_budget, StringQuestion blockname, StringQuestion gov_name22,
+		StringQuestion village2_name, StringQuestion district2_name, StringQuestion post2_area, StringQuestion police2, float blocknumber2,
 		int pincode2) {
 	super(gov_name, total_budget, state_work_meney, state_name, gov_name2, state_budget, gov_type, district2_budget,
 			blockname);
@@ -22,34 +22,34 @@ public class Village2 extends Block2 {
 	this.blocknumber2 = blocknumber2;
 	this.pincode2 = pincode2;
    }
-   public String getGov_name2() {
+   public StringQuestion getGov_name2() {
 	return gov_name2;
    }
-   public void setGov_name2(String gov_name2) {
+   public void setGov_name2(StringQuestion gov_name2) {
 	this.gov_name2 = gov_name2;
    }
-   public String getVillage2_name() {
+   public StringQuestion getVillage2_name() {
 	return village2_name;
    }
-   public void setVillage2_name(String village2_name) {
+   public void setVillage2_name(StringQuestion village2_name) {
 	this.village2_name = village2_name;
    }
-   public String getDistrict2_name() {
+   public StringQuestion getDistrict2_name() {
 	return District2_name;
    }
-   public void setDistrict2_name(String district2_name) {
+   public void setDistrict2_name(StringQuestion district2_name) {
 	District2_name = district2_name;
    }
-   public String getPost2_area() {
+   public StringQuestion getPost2_area() {
 	return post2_area;
    }
-   public void setPost2_area(String post2_area) {
+   public void setPost2_area(StringQuestion post2_area) {
 	this.post2_area = post2_area;
    }
-   public String getPolice2() {
+   public StringQuestion getPolice2() {
 	return police2;
    }
-   public void setPolice2(String police2) {
+   public void setPolice2(StringQuestion police2) {
 	this.police2 = police2;
    }
    public float getBlocknumber2() {

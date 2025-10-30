@@ -4,7 +4,7 @@ public class Polygon extends Shape {
 
 	int side;
 
-	public Polygon(String shapename, int side) {
+	public Polygon(StringQuestion shapename, int side) {
 		super(shapename);
 		this.side = side;
 	}

@@ -3,8 +3,8 @@ package Hybrid_lnheritance;
 public class Animal {
 
 private	int id;
-private String name;
-	public void display(int id, String name) {
+private StringQuestion name;
+	public void display(int id, StringQuestion name) {
 		this.id = id;
 		this.name=name;
 		System.out.println("id is"+id);

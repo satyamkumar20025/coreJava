@@ -3,9 +3,9 @@ package Multilevel_lnheritance;
 
 class Account {
    int id;
-   String name;
+   StringQuestion name;
 
-   void input(int id, String name) {
+   void input(int id, StringQuestion name) {
        this.id = id;
        this.name = name;
    }

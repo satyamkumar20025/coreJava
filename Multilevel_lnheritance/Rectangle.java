@@ -3,7 +3,7 @@ package Multilevel_lnheritance;
 public class  Rectangle extends Shape {
 	int length;
 	int breadth;
-   public void Rectangle(int id,String name,int length, int breadth) {
+   public void Rectangle(int id,StringQuestion name,int length, int breadth) {
 		super.Shape(id,name); ///Shape ka input call
 		this.length = length;
 		this.breadth = breadth;

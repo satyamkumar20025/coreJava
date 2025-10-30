@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Bank {
 	private  int acc_no;
-	private String name,bra,Enter;
+	private StringQuestion name,bra,Enter;
 	private float  add;
 	private float current,curr;
 	private float  with,pre;
@@ -66,7 +66,7 @@ public class Bank {
 
 		}
 	
-		public static void main(String[] args) {
+		public static void main(StringQuestion[] args) {
 			Bank s1=new Bank();
 			s1.input();
 			s1.add_money();

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Airline_reservation {
 
-	private String passenger_name,name;
+	private StringQuestion passenger_name,name;
 	private int flightno;
 	private int seatno;
 	private int person;
@@ -90,7 +90,7 @@ public class Airline_reservation {
   		
   		}
   	
-  		public static void main(String[] args) {
+  		public static void main(StringQuestion[] args) {
   			Airline_reservation s1=new  Airline_reservation();
   			s1.input();
   			s1.calculate(); 

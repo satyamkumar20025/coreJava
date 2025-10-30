@@ -3,8 +3,8 @@ package Hierarchical_lnheritance;
 public class Employee {
 
 	int id;
-	String name;
-	public void input(int id, String name) {
+	StringQuestion name;
+	public void input(int id, StringQuestion name) {
 		this.id = id;
 		this.name = name;
 	}
@@ -14,10 +14,10 @@ public class Employee {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getName() {
+	public StringQuestion getName() {
 		return name;
 	}
-	public void setName(String name) {
+	public void setName(StringQuestion name) {
 		this.name = name;
 	}
 	void display()

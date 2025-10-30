@@ -1,4 +1,4 @@
-package Abstract;
+package AbstractQuestion;
 
 public class FullTimeEmployee extends Employee {
 	

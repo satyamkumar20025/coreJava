@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class library_book {
 
 	private int book_id;
-	private String title;
-	private String author;
+	private StringQuestion title;
+	private StringQuestion author;
 	private double price;
 	private int quantity;  ///////total book 
 	private int return1;
@@ -77,7 +77,7 @@ public class library_book {
         return1=issuecount+return1;
 
 	}
-	public static void main(String[] args) {
+	public static void main(StringQuestion[] args) {
         
 		library_book s1=new library_book();
 		     s1.input();

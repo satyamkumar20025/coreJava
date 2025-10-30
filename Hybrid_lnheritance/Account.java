@@ -3,9 +3,9 @@ package Hybrid_lnheritance;
 public class Account {
 
 	int id;
-	String name;
+	StringQuestion name;
 	double balance;
-	public Account(int id, String name, double balance) {
+	public Account(int id, StringQuestion name, double balance) {
 		this.id = id;
 		this.name = name;
 		this.balance = balance;
@@ -16,10 +16,10 @@ public class Account {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getName() {
+	public StringQuestion getName() {
 		return name;
 	}
-	public void setName(String name) {
+	public void setName(StringQuestion name) {
 		this.name = name;
 	}
 	public double getBalance() {

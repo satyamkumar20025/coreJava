@@ -3,7 +3,7 @@ package Hierarchical_lnheritance;
 public class Circle extends Shape {
 
 	double radius;
-	public void area(int id,String name,double radius) {
+	public void area(int id,StringQuestion name,double radius) {
 		super.area(id,name);
 		this.radius = radius;
 	}

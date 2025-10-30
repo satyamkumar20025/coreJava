@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class online_shopping {
 
-	private String cust_name;
-	private String[] cart=new String[10];//////cart size is ==10
-	private String product;
+	private StringQuestion cust_name;
+	private StringQuestion[] cart=new StringQuestion[10];//////cart size is ==10
+	private StringQuestion product;
 	private int count=0;
 	private double discount;
 	private int  remove;
 	private int  itemprice;
 	private int  itemquantity;
-	private String name;
+	private StringQuestion name;
 	private int  totalbill;
 
 	void input()
@@ -98,7 +98,7 @@ public class online_shopping {
   		
   		}
   	
-  		public static void main(String[] args) {
+  		public static void main(StringQuestion[] args) {
   			online_shopping s1=new  online_shopping();
   			s1.input();
   			s1.addltem();

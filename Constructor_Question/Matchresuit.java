@@ -2,18 +2,18 @@ package Constructor_Question;
 
 public class Matchresuit {
 
-	String team1;
-	String team2;
+	StringQuestion team1;
+	StringQuestion team2;
 	int score1;
 	int score2;
-	public Matchresuit(String team1, String team2, int score1, int score2) {
+	public Matchresuit(StringQuestion team1, StringQuestion team2, int score1, int score2) {
 		super();
 		this.team1 = team1;
 		this.team2 = team2;
 		this.score1 = score1;
 		this.score2 = score2;
 	}
-	String gitwinner()
+	StringQuestion gitwinner()
 	{
 		if(score1>score2)
 		{
@@ -30,7 +30,7 @@ public class Matchresuit {
 
 
 //	public class Sportstournamet{
-		  public static void main(String[] args) {
+		  public static void main(StringQuestion[] args) {
 				Matchresuit p1 = new Matchresuit("kalu","pilu",50,55);
 				Matchresuit p2 = new Matchresuit("kalu","pilu",56,55);
 				Matchresuit p3 = new Matchresuit("kalu","pilu",50,50);

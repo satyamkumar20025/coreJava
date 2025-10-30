@@ -3,7 +3,7 @@ package Hybrid_lnheritance;
 public class  Rectangle extends Shape {
 	int length;
 	int breadth;
-   public void area(int id,String name,int length, int breadth) {
+   public void area(int id,StringQuestion name,int length, int breadth) {
 		super.area(id,name); ///Shape ka input call
 		this.length = length;
 		this.breadth = breadth;

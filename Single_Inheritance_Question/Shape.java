@@ -1,10 +1,10 @@
 package Single_Inheritance_Question;
 
 public class Shape {
-    String name;
+    StringQuestion name;
     
 
-    public Shape( String name) {
+    public Shape( StringQuestion name) {
         this.name   = name;
     }
 }

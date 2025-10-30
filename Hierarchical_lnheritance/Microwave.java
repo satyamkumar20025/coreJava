@@ -4,7 +4,7 @@ public class Microwave extends Appliance{
 
 int	cookingModes;
 
-public Microwave(int id, String brand, int cookingModes) {
+public Microwave(int id, StringQuestion brand, int cookingModes) {
 	super(id, brand);
 	this.cookingModes = cookingModes;
 }
@@ -22,7 +22,7 @@ void displayMicrowave()
 	System.out.println("CookingModes"+cookingModes);
 	
 }
-public static void main(String[] args)
+public static void main(StringQuestion[] args)
 {
 	Microwave m=new Microwave(45,"saddssds",45);
 	m.display();

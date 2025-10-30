@@ -2,12 +2,12 @@ package Hierarchical_lnheritance;
 
 public class Truck extends Vehicle {
 
-	public void fueltype(int id,String name) {
+	public void fueltype(int id,StringQuestion name) {
 		super.fueltype(id,name);
 		System.out.println("Diesel");
 	}
 
-	public static void main(String[] args)
+	public static void main(StringQuestion[] args)
 	{
 		Truck t=new Truck();
 		t.fueltype(45, "gsgy");

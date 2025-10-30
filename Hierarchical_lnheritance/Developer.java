@@ -2,18 +2,18 @@ package Hierarchical_lnheritance;
 
 public class Developer extends Employee {
 
-	String Language;
+	StringQuestion Language;
 
-	public void input(int id,String name,String language) {
+	public void input(int id,StringQuestion name,StringQuestion language) {
 		super.input(id,name);
 		Language = language;
 	}
 
-	public String getLanguage() {
+	public StringQuestion getLanguage() {
 		return Language;
 	}
 
-	public void setLanguage(String language) {
+	public void setLanguage(StringQuestion language) {
 		Language = language;
 	}
 	void Developerdisplay()

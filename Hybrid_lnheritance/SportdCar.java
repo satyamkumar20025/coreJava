@@ -3,7 +3,7 @@ package Hybrid_lnheritance;
 public class SportdCar extends Car {
 	int horsepower;
 
-	public SportdCar(int id, String brand, int seat, int horsepower) {
+	public SportdCar(int id, StringQuestion brand, int seat, int horsepower) {
 		super(id, brand, seat);
 		this.horsepower = horsepower;
 	}
@@ -20,7 +20,7 @@ public class SportdCar extends Car {
 		super.display();
 		System.out.println("horsepower is "+horsepower);
 	}
-	public static void main(String[] args)
+	public static void main(StringQuestion[] args)
 	{
 		SportdCar s=new SportdCar(5365,"kalu",465,666);
 		s.display();

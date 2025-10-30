@@ -1,4 +1,4 @@
-package String;
+package StringQuestion;
 
 public class StringBuilderExample {
     public static void main(String[] args) {

@@ -6,7 +6,7 @@ public class Bat extends Mammal {
 		System.out.println("Bat can Fiy");
 	}
 
-	public static void main(String[] args)
+	public static void main(StringQuestion[] args)
 	{
 		Bat b=new Bat();
 		b.display(4, "Kalu");

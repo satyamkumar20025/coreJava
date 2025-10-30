@@ -2,23 +2,23 @@ package Multilevel_lnheritance;
 
 public class Department extends College {
 
-	String deptname;
-	String hod;
-	public void Department(int id, String uniname, String collegename, String deptname, String hod) {
+	StringQuestion deptname;
+	StringQuestion hod;
+	public void Department(int id, StringQuestion uniname, StringQuestion collegename, StringQuestion deptname, StringQuestion hod) {
 		super.College(id, uniname, collegename);
 		this.deptname = deptname;
 		this.hod = hod;
 	}
-	public String getDeptname() {
+	public StringQuestion getDeptname() {
 		return deptname;
 	}
-	public void setDeptname(String deptname) {
+	public void setDeptname(StringQuestion deptname) {
 		this.deptname = deptname;
 	}
-	public String getHod() {
+	public StringQuestion getHod() {
 		return hod;
 	}
-	public void setHod(String hod) {
+	public void setHod(StringQuestion hod) {
 		this.hod = hod;
 	}
 	
@@ -29,7 +29,7 @@ public class Department extends College {
 		System.out.println("hod"+hod);
 		
 	}
-	public static void main(String[] args)
+	public static void main(StringQuestion[] args)
 	{
 		Department dt=new Department();
 		dt.Department(45,"hasgdysg","ghadwuygd","agsughwu","hawsd");

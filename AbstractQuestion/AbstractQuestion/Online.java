@@ -1,4 +1,4 @@
-package Abstract;
+package AbstractQuestion;
 
 public abstract class Online {
 

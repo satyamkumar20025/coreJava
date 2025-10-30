@@ -2,18 +2,18 @@ package Multilevel_lnheritance;
 
 public class Manager extends Employee{
 
-	String department;
+	StringQuestion department;
 
-	public void  Managerinput(int id,String name,double salary,String department) {
+	public void  Managerinput(int id,StringQuestion name,double salary,StringQuestion department) {
 		super.Employeeinput(id,name,salary);
 		this.department = department;
 	}
 
-	public String getDepartment() {
+	public StringQuestion getDepartment() {
 		return department;
 	}
 
-	public void setDepartment(String department) {
+	public void setDepartment(StringQuestion department) {
 		this.department = department;
 	}
 
@@ -23,7 +23,7 @@ public class Manager extends Employee{
 		System.out.println("Manager Department is:"+department);
 	}
 
-	public static void main(String[] args)
+	public static void main(StringQuestion[] args)
 	{
 		Manager m1=new Manager();
 		m1.Managerinput(563,"Satyamkumar",200000l,"it");

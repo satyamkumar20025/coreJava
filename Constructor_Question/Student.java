@@ -4,13 +4,13 @@ package Constructor_Question;
 public class Student {
 
 	int rollno;
-	String name;
+	StringQuestion name;
 	int total;
 	int avg;
 	int per;
 	int Gpa;
 	int[] marks;
-	public Student(int rollno, String name, int[] marks) {
+	public Student(int rollno, StringQuestion name, int[] marks) {
 		this.rollno = rollno;
 		this.name = name;
 		this.marks = marks;
@@ -46,7 +46,7 @@ public class Student {
 
 		}
 	}
-		public static void main(String[] args) {
+		public static void main(StringQuestion[] args) {
 			
 		   int[] marks= {96, 96, 96};
 			Student s1 =new Student(27,"satyam",marks);

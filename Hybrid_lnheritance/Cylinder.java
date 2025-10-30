@@ -3,7 +3,7 @@ package Hybrid_lnheritance;
 public class Cylinder extends Circle {
 
 	double height;
-	public String toString() {
+	public StringQuestion toString() {
 		return "Cylinder [height=" + height + "]";
 	}
 	public double getHeight() {
@@ -19,7 +19,7 @@ public class Cylinder extends Circle {
 		System.out.println("height");
 		
 	}
-	public static void main(String[] args)
+	public static void main(StringQuestion[] args)
 	{
 		Cylinder c=new Cylinder();
 		c.area(45, "area");

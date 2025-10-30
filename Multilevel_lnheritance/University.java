@@ -3,8 +3,8 @@ package Multilevel_lnheritance;
 public class University {
 
 	int id;
-	String uniname;
-	public void input(int id, String uniname) {
+	StringQuestion uniname;
+	public void input(int id, StringQuestion uniname) {
 		this.id = id;
 		this.uniname = uniname;
 	}
@@ -14,10 +14,10 @@ public class University {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getUniname() {
+	public StringQuestion getUniname() {
 		return uniname;
 	}
-	public void setUniname(String uniname) {
+	public void setUniname(StringQuestion uniname) {
 		this.uniname = uniname;
 	}
 	void display()

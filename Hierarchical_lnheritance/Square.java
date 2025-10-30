@@ -7,7 +7,7 @@ public class Square extends Shape{
 	public Square() {
 		
 	}
-	public void  area(int id,String name,double side) {
+	public void  area(int id,StringQuestion name,double side) {
 		super.area(id,name);
 		this.side = side;
 	}

@@ -1,9 +1,9 @@
 package Single_Inheritance_Question;
 
 public class Vehicle {
-    String brand;
+    StringQuestion brand;
 
-    public Vehicle(String brand) {
+    public Vehicle(StringQuestion brand) {
         this.brand = brand;
     }
 
@@ -12,7 +12,7 @@ public class Vehicle {
     }
 
     // Add this method below:
-    public static void main(String[] args) {
+    public static void main(StringQuestion[] args) {
         Car myCar = new Car("BMW", "Gol");
         myCar.start();
         myCar.drive();
@@ -20,9 +20,9 @@ public class Vehicle {
 }
 
 class Car extends Vehicle {
-    String model;
+    StringQuestion model;
 
-    public Car(String brand, String model) {
+    public Car(StringQuestion brand, StringQuestion model) {
         super(brand);
         this.model = model;
     }

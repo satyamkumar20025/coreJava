@@ -3,7 +3,7 @@ package Hybrid_lnheritance;
 public class LoanAccount extends Account{
 	double loanAmount;
 
-	public LoanAccount(int id, String name, double balance, double loanAmount) {
+	public LoanAccount(int id, StringQuestion name, double balance, double loanAmount) {
 		super(id, name, balance);
 		this.loanAmount = loanAmount;
 	}

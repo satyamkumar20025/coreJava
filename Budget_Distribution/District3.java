@@ -3,18 +3,18 @@ package Budget_Distribution;
 import java.util.Scanner;
 
 public class District3 extends State {
-	String gov_type;
+	StringQuestion gov_type;
 	double district3_budget;
-	public District3(String gov_name, double total_budget, double state_work_meney, String state_name, String gov_name2,
-			double state_budget, String gov_type, double district3_budget) {
+	public District3(StringQuestion gov_name, double total_budget, double state_work_meney, StringQuestion state_name, StringQuestion gov_name2,
+			double state_budget, StringQuestion gov_type, double district3_budget) {
 		super(gov_name, total_budget, state_work_meney, state_name, gov_name2, state_budget);
 		this.gov_type = gov_type;
 		this.district3_budget = district3_budget;
 	}
-	public String getGov_type() {
+	public StringQuestion getGov_type() {
 		return gov_type;
 	}
-	public void setGov_type(String gov_type) {
+	public void setGov_type(StringQuestion gov_type) {
 		this.gov_type = gov_type;
 	}
 	public double getDistrict3_budget() {
@@ -28,7 +28,7 @@ public class District3 extends State {
 	{
 	Scanner sc=new Scanner(System.in);
 	System.out.print("Enter the name of Area:");
-	String name=sc.nextLine();
+	StringQuestion name=sc.nextLine();
 	if(name.equalsIgnoreCase("Rural"))
 	
 		{

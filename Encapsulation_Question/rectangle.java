@@ -45,7 +45,7 @@ public class rectangle {
 			System.out.println("Rectangle Area :"+area);
 			System.out.println(" Rectangle Perimeter:"+perim);
 	 }
-		public static void main(String[] args) {
+		public static void main(StringQuestion[] args) {
 			rectangle s1=new rectangle();
 			s1.input();
 			s1.calculate();

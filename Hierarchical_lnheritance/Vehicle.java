@@ -3,8 +3,8 @@ package Hierarchical_lnheritance;
 public class Vehicle {
 
 	int id;
-	String name;
-	public void fueltype(int id, String name) {
+	StringQuestion name;
+	public void fueltype(int id, StringQuestion name) {
 		this.id = id;
 		this.name = name;
 		System.out.println("Placeholder");
@@ -15,10 +15,10 @@ public class Vehicle {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getName() {
+	public StringQuestion getName() {
 		return name;
 	}
-	public void setName(String name) {
+	public void setName(StringQuestion name) {
 		this.name = name;
 	}
 	

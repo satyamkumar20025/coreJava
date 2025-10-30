@@ -21,7 +21,7 @@ public class loan_emi {
         System.out.printf("Calculated EMI: ₹%.2f\n", emi);
     }
 
-    public static void main(String[] args) {
+    public static void main(StringQuestion[] args) {
         loan_emi s1 = new loan_emi(50000, 12, 12); // ₹50,000 loan, 12% annual interest, 12 months
         s1.calculateEMI();
     }

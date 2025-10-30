@@ -3,8 +3,8 @@ package Hierarchical_lnheritance;
 public class Shape {
 
 	int id;
-	String name;
-	public void area(int id, String name) {
+	StringQuestion name;
+	public void area(int id, StringQuestion name) {
 		this.id = id;
 		this.name = name;
 		System.out.println("SHape");
@@ -15,10 +15,10 @@ public class Shape {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getName() {
+	public StringQuestion getName() {
 		return name;
 	}
-	public void setName(String name) {
+	public void setName(StringQuestion name) {
 		this.name = name;
 	}
 	

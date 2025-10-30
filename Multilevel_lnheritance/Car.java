@@ -3,7 +3,7 @@ package Multilevel_lnheritance;
 public class Car extends Vehicle {
 	int seats;
 
-	public void inputCar(int id,String brand,int seats) {
+	public void inputCar(int id,StringQuestion brand,int seats) {
 		super.input(id, brand);
 		this.seats = seats;
 	}

@@ -3,7 +3,7 @@ package Encapsulation_Question;
 import java.util.Scanner;
 
 public class Employee {
- private String name;
+ private StringQuestion name;
  private int id;
  private float hra,ta,da,pf,esi,gross,net,basic_salary;
 	
@@ -44,7 +44,7 @@ public class Employee {
 
 		}
 	
-		public static void main(String[] args) {
+		public static void main(StringQuestion[] args) {
 			Employee s1=new Employee();
 			s1.input();
 			s1.calculate();

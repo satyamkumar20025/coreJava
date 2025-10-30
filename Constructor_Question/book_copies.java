@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class book_copies {
 	private int book_id;
-	private String title;
-	private String author;
+	private StringQuestion title;
+	private StringQuestion author;
 	private int copies;
 
 
 	//parameterzed constructor
-	book_copies(String title,String author,int copies)
+	book_copies(StringQuestion title,StringQuestion author,int copies)
 	{
 		this.title=title;
 		this.author=author;
@@ -41,7 +41,7 @@ public class book_copies {
 		System.out.print("Copies:"+copies);
 
 	}
-	public static void main(String[] args)
+	public static void main(StringQuestion[] args)
 	{
 		book_copies s1 =new book_copies("ct","Satyam kumar",5);
 		s1.issuebook();

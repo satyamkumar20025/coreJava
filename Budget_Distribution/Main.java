@@ -2,7 +2,7 @@ package Budget_Distribution;
 
 public class Main {
 
-	public static void main(String[] args)
+	public static void main(StringQuestion[] args)
 	{
 		Village1 v1=new Village1("BjP",45000000,1000000,"BIhar","NTS",500000,
 				"Gram_Pachyat",20000,"Warisaliganj","Panchayat","Shahpur","nawad","Parwti","Kashichac",2,801550);

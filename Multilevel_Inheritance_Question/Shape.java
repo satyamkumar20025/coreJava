@@ -2,14 +2,14 @@ package Multilevel_Inheritance_Question;
 
 public class Shape {
 
-	String Shapename;
-	public Shape(String shapename) {
+	StringQuestion Shapename;
+	public Shape(StringQuestion shapename) {
 		Shapename = shapename;
 	}
-	public String getShapename() {
+	public StringQuestion getShapename() {
 		return Shapename;
 	}
-	public void setShapename(String shapename) {
+	public void setShapename(StringQuestion shapename) {
 		Shapename = shapename;
 	}
 	

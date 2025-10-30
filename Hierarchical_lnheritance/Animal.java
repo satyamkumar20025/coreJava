@@ -3,8 +3,8 @@ package Hierarchical_lnheritance;
 public class Animal {
 
 	int id;
-	String name;
-	public void Sound(int id, String name){
+	StringQuestion name;
+	public void Sound(int id, StringQuestion name){
 		this.id = id;
 		this.name = name;
 	}
@@ -14,10 +14,10 @@ public class Animal {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getName() {
+	public StringQuestion getName() {
 		return name;
 	}
-	public void setName(String name) {
+	public void setName(StringQuestion name) {
 		this.name = name;
 	}
 	void display()

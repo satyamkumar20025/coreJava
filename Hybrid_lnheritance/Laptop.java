@@ -3,8 +3,8 @@ package Hybrid_lnheritance;
 public class Laptop extends Device {
 
 	int ram;
-	String processor;
-	public void input(int ram, String processor) {
+	StringQuestion processor;
+	public void input(int ram, StringQuestion processor) {
 		super.input(id,name);
 		this.ram = ram;
 		this.processor = processor;
@@ -15,10 +15,10 @@ public class Laptop extends Device {
 	public void setRam(int ram) {
 		this.ram = ram;
 	}
-	public String getProcessor() {
+	public StringQuestion getProcessor() {
 		return processor;
 	}
-	public void setProcessor(String processor) {
+	public void setProcessor(StringQuestion processor) {
 		this.processor = processor;
 	}
 	void LaptopLaptop()

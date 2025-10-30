@@ -1,14 +1,14 @@
 package Multilevel_Inheritance_Question;
 public class Vehicle{
-    String fueltype; 
-    public Vehicle(String fueltype) {
+    StringQuestion fueltype; 
+    public Vehicle(StringQuestion fueltype) {
 		this.fueltype = fueltype;
     }
 	
-	public String getFueltype() {
+	public StringQuestion getFueltype() {
 		return fueltype;
 	}
-	public void setFueltype(String fueltype) {
+	public void setFueltype(StringQuestion fueltype) {
 		this.fueltype = fueltype;
 	}
 	

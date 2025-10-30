@@ -2,7 +2,7 @@ package Multilevel_lnheritance;
 
 public class Cuboid extends Rectangle {
 	int height;
-	public void Cuboid(int id,String name,int length,int breadth,int height) {
+	public void Cuboid(int id,StringQuestion name,int length,int breadth,int height) {
 		super.Rectangle(id,name,length,breadth);
 		this.height = height;
 	}
@@ -28,7 +28,7 @@ public class Cuboid extends Rectangle {
 		System.out.println("surfaceArea"+SurfaceArea());
 	
 	}
-		public static void main (String[] args)
+		public static void main (StringQuestion[] args)
 		{
 			Cuboid c1=new Cuboid();
 	        c1.Cuboid(10,"sadada",10,10,10);

@@ -2,18 +2,18 @@ package Hierarchical_lnheritance;
 
 public class Tester extends Employee {
 
-	String tool;
+	StringQuestion tool;
 
-	public void input(int id,String name,String tool) {
+	public void input(int id,StringQuestion name,StringQuestion tool) {
 		super.input(id,name);
 		this.tool = tool;
 	}
 
-	public String getTool() {
+	public StringQuestion getTool() {
 		return tool;
 	}
 
-	public void setTool(String tool) {
+	public void setTool(StringQuestion tool) {
 		this.tool = tool;
 	}
 	void displayTester()
@@ -21,7 +21,7 @@ public class Tester extends Employee {
 		super.display();
 		System.out.println("tool"+tool);
 	}
-	public static void main(String[] args)
+	public static void main(StringQuestion[] args)
 	{
 		Tester t=new Tester();
 		t.input(45, "dfadf", "fwft");

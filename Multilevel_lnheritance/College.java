@@ -2,18 +2,18 @@ package Multilevel_lnheritance;
 
 public class College extends University {
 
-	String collegename;
+	StringQuestion collegename;
 
-	public void  College(int id,String uniname,String collegename) {
+	public void  College(int id,StringQuestion uniname,StringQuestion collegename) {
 		super.input(id,uniname);
 		this.collegename = collegename;
 	}
 
-	public String getCollegename() {
+	public StringQuestion getCollegename() {
 		return collegename;
 	}
 
-	public void setCollegename(String collegename) {
+	public void setCollegename(StringQuestion collegename) {
 		this.collegename = collegename;
 	}
 void displaycollege()

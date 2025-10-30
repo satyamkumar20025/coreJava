@@ -2,8 +2,8 @@ package Multilevel_lnheritance;
 
 public class Vehicle {
 	int id;
-	String brand;
-	public void input(int id, String brand) {
+	StringQuestion brand;
+	public void input(int id, StringQuestion brand) {
 		this.id = id;
 		this.brand = brand;
 	}
@@ -16,11 +16,11 @@ public class Vehicle {
 		this.id = id;
 	}
 
-	public String getBrand() {
+	public StringQuestion getBrand() {
 		return brand;
 	}
 
-	public void setBrand(String brand) {
+	public void setBrand(StringQuestion brand) {
 		this.brand = brand;
 	}
 	void display()

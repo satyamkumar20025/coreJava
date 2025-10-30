@@ -1,9 +1,9 @@
 package Single_Inheritance_Question;
 
     class Manager extends Employee {
-        String department;
+        StringQuestion department;
 
-        public Manager(float salary, String name, String department)
+        public Manager(float salary, StringQuestion name, StringQuestion department)
         {
             super(salary, name);
             this.department = department;
@@ -18,7 +18,7 @@ package Single_Inheritance_Question;
 
 
     public class Main {
-        public static void main(String[] args) {
+        public static void main(StringQuestion[] args) {
             Manager e1 = new Manager(35000, "Satyam", "Java");
             e1.displayManager();
         }

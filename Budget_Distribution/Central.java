@@ -3,10 +3,10 @@ package Budget_Distribution;
 import java.util.Scanner;
 
 public class Central{
-	String gov_name;
+	StringQuestion gov_name;
 	double total_budget;/////////HOW MUCH BUDGET IS BEING SPENT ON ANY WORK
 	double State_work_meney;///////////CEntral give meney for devlopaments ;
-	public Central(String gov_name, double total_budget, double state_work_meney) {
+	public Central(StringQuestion gov_name, double total_budget, double state_work_meney) {
 		this.gov_name = gov_name;
 		this.total_budget = total_budget;
 		State_work_meney = state_work_meney;
@@ -14,13 +14,13 @@ public class Central{
 
 
 
-	public String getGov_name() {
+	public StringQuestion getGov_name() {
 		return gov_name;
 	}
 
 
 
-	public void setGov_name(String gov_name) {
+	public void setGov_name(StringQuestion gov_name) {
 		this.gov_name = gov_name;
 	}
 
@@ -55,7 +55,7 @@ public class Central{
 
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter the State");
-		String name=sc.nextLine();
+		StringQuestion name=sc.nextLine();
 		if(name.equalsIgnoreCase("Jammu&Kashmir")||name.equalsIgnoreCase("Nagaland")||
 				name.equalsIgnoreCase("Meghalaya")||name.equalsIgnoreCase("Manipur")||
 				name.equalsIgnoreCase("Mizoram")||name.equalsIgnoreCase("Tripura")||

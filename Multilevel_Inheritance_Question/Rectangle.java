@@ -4,7 +4,7 @@ public class Rectangle extends Shape{
 
 	int length;
 	int width;
-	public Rectangle(String shapename, int length, int width) {
+	public Rectangle(StringQuestion shapename, int length, int width) {
 		super(shapename);
 		this.length = length;
 		this.width = width;
@@ -27,7 +27,7 @@ public class Rectangle extends Shape{
 		System.out.println("Width"+width);
 		
 	}
-	public static void main(String[] args)
+	public static void main(StringQuestion[] args)
 	{
 		Rectangle r=new Rectangle("cght",5,5);
 		r.displayRectangle();

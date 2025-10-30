@@ -3,7 +3,7 @@ package Multilevel_Inheritance_Question;
 class Employee extends Person {
     int salary;
 
-    public Employee(String name, int salary) {
+    public Employee(StringQuestion name, int salary) {
         super(name);
         this.salary = salary;
     }
