@@ -1,4 +1,4 @@
-package AbstractQuestion;
+package AbstractDemo;
 
 public class ElectronicsOrder extends Online {
 

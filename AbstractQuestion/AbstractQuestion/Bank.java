@@ -1,4 +1,4 @@
-package AbstractQuestion;
+ppackage AbstractQuestion;
 
 public abstract class Bank {
 
